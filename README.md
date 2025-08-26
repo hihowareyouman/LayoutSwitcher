@@ -14,7 +14,7 @@ A simple script that allows you to correct the keyboard layout of a mistyped wor
 
 1. **Open Terminal** and navigate to the script folder:
 	```sh
-	cd /path/to/layout
+	cd /path/to/LayoutSwitcher
 	```
 
 2. **Install dependencies:**
@@ -28,13 +28,13 @@ A simple script that allows you to correct the keyboard layout of a mistyped wor
 
 1. **Start the script in the background:**
 	```sh
-	nohup python3 layout.py &
+	nohup python3 layout_switcher.py &
 	```
 	- The script will keep running even if you close the terminal.
 
 2. **Check if the script is running:**
 	```sh
-	ps aux | grep layout.py
+	ps aux | grep layout_switcher.py
 	```
 	- You should see a line with the process ID (PID).
 
@@ -44,7 +44,7 @@ A simple script that allows you to correct the keyboard layout of a mistyped wor
 
 1. **Find the script's PID:**
 	```sh
-	ps aux | grep layout.py
+	ps aux | grep layout_switcher.py
 	```
 
 2. **Stop the process:**
